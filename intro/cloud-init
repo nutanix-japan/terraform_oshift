@@ -1,0 +1,4 @@
+#cloud-config
+
+hostname: ${vm_name}
+fqdn: ${vm_name}.${vm_domain}
