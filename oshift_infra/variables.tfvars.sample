@@ -1,5 +1,5 @@
 # This is a sample file to input values for variables
-# Either create a new file called terraform.tfvars with the conents 
+# Either create a new file called terraform.tfvars with the contents 
 # Or rename this file to terraform.tfvars
 
 cluster_name        = "your cluster name"
