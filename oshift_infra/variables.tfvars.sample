@@ -1,0 +1,12 @@
+cluster_name = "your cluster name"
+subnet_name  = "you network name"
+user         = "admin"
+password     = ""
+endpoint     = "PE IP"
+vm_name      = "RHOCS"
+vm_worker_prefix = "RHOCS-WORKER"
+vm_master_prefix = "RHOCS-MASTER"
+vm_domain    = your domain"
+vm_count     = 1
+vm_master_count = 3
+vm_worker_count = 2
