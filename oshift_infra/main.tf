@@ -53,7 +53,7 @@ resource "nutanix_virtual_machine" "rhocs-master" {
   cluster_uuid         = data.nutanix_cluster.cluster.id
   num_vcpus_per_socket = "1"
   num_sockets          = "4"
-  memory_size_mib      = 8*1024
+  memory_size_mib      = 16*1024
 
   disk_list {
     device_properties {
@@ -93,7 +93,7 @@ resource "nutanix_virtual_machine" "rhocs-worker" {
   cluster_uuid         = data.nutanix_cluster.cluster.id
   num_vcpus_per_socket = "1"
   num_sockets          = "4"
-  memory_size_mib      = 8*1024   
+  memory_size_mib      = 12*1024   
 
   disk_list {
     device_properties {
